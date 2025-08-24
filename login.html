@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="dashboard.html" method="post" enctype="multipart/form-data">
         <table>
-            <tr><td>Gmail</td><td><input type="gmail"></td></tr>
-            <tr><td>Password</td><td><input type="password"></td></tr>
-            <tr><td><button>Login</button></td><td><a href="home.html">Sign up</a></td></tr>
+            <tr><td><label for="class1">Username: </label></td><td  class="class2"><input type="text" placeholder="Enter your Username"></td></tr>
+            <tr><td><label for="class1">Password: </label></td><td  class="class2"><input type="password" placeholder="Enter your password"></td></tr>
+            <tr><td colspan="2" style="text-align: center;"><button id="btn1">Login</button></td></tr>
         </table>
     </form>
 </body>

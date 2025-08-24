@@ -1,0 +1,56 @@
+#signup {
+  background-color: chocolate;
+  border: none;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, 0.4);
+  /* horizontal mov, vertical mov, blur, size */
+}
+
+#loginTable {
+  background: #ffffff;
+
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-spacing: 10px;
+  color: #285e9d;
+  background-image: ;
+}
+
+.use_pass {
+  width: 150px;
+  height: 20px;
+  border: 1px solid #4a90e2;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+#signinBtn {
+  background: #4a90e2;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: 0.3s;
+  text-align: center;
+  background-size: cover;
+  background-image: url("image/btn_lab_4.jpeg");
+  /* background-image: linear-gradient(silver,pink,gold);
+    background-image: radial-gradient(silver,pink,gold); */
+}
+
+#signinBtn:hover {
+  background: #d32c2c;
+}
+
+#div1 {
+  background-color: gold;
+  width: 400px;
+  height: 400px;
+  margin-left: 150px;
+}

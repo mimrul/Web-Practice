@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="lab_4.css">
+    <style>
+      /* css selector :id :(#) just for individual component , 
+                         class :(.) use for multiple component 
+                         priority >>> class
+                         */
+
+      #btn0 {
+        background-color: red;
+      }
+
+      .btn1 {
+        background-color: green;
+      }
+
+      #btnCheck {
+        background-color: gold;
+      }
+    </style>
+  </head>
+  <body style="background-color: azure">
+    <!-- - 1. style attribute directly - Inline - directly on the component 
+              -2. Style tag
+               -3. separeate css file -->
+
+    <button style="background-color: chocolate; border: 1px solid black">
+      sign here
+    </button>
+    <br />
+    <hr />
+    <button id="btn0">ok</button>
+    <button class="btn1">Click here</button>
+    <button class="btn1">Submit</button>
+    <br />
+    <hr />
+
+    <button id="btnCheck">check</button>
+    <!-- id has more priority -->
+    <button class="btn1" id="btnCheck">check</button>
+
+    <br />
+    <hr />
+    <!-- start css in css page -->
+    <button id="signup">Sign Here</button>
+<br>
+<br>
+<hr>
+<div id="div1">
+
+<table id="loginTable" >
+    <tr>
+      <td><label for="username">Username:</label></td>
+      <td><input type="text" class="use_pass " placeholder="Enter your name"></td>
+    </tr>
+    <tr>
+      <td><label for="password">Password:</label></td>
+      <td><input type="password" class="use_pass " placeholder="Enter your password"></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;">
+        <button id="signinBtn">Sign In</button>
+      </td>
+    </tr>
+  </table>
+
+
+  <!-- margin :  independent
+  padding : if had parents
+                  (Clock Wise)
+          [  top   -  right - bottom - left]
+  margin:  0px  , 10px  , 20px , 40px ;
+
+           [ top_bottom , left_right] 
+  margin :      0px , 10px
+
+               [  From everyside 10 px]
+  margin : 10 px
+
+            [individual]
+  margin-top :10px
+  margin-right:10px
+
+
+  
+
+-->
+
+
+
+
+  </body>
+</html>
