@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#parent{
+    display: grid;
+    
+    
+}
+#header{
+    background-color: green;
+    height: 20vh;  
+    width: 100vw;
+}
+
+
+
+#footer{
+    background-color: red;
+    height: 20vh;
+    width: 100vw;
+}
+
+#leftright{
+    display: flex;
+    height: 60vh; 
+    width: 100vw;
+   
+}
+
+#left{
+    background-color: chocolate;
+    width: 25vw;    
+    
+}
+
+#right{
+    background-color: blue;
+    width: 75vw;
+    
+}
+

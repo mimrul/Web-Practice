@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#parent{
+    display: flex; 
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(77, 107, 107);
+    align-items: center;
+
+}
+
+#left{
+    background-color: red;
+    height: 300px;
+    width: 400px;
+}
+
+#right{
+    background-color: green;
+    height: 300px;
+    width: 400px;
+    margin-left: 15px;
+}
+
