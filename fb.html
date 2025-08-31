@@ -9,16 +9,18 @@
 <body>
     <div id="parent">
         <div id="left">
-            <h1 style="color: blue;">facebook</h1>
-            <h3>Facebook helps you connect and share with the people in your life.</h3>
+            <h1 id="logo">facebook</h1>
+            <p id="tagline">Facebook helps you connect and share with the people in your life.</p>
         </div>
         <div id="right">
-           <tr><td><input type="text" placeholder="Email address or phone Number"></td></tr>
-           <tr><td><input type="password" placeholder="Enter your password"></td></tr>
-           <tr><td><button>Sign in</button></td></tr>
-           <tr><td><a href="process.xyz">Forgotten password</a></td></tr>
+           <form class="login-box">
+           <input type="text" placeholder="Email address or phone Number">
+           <input type="password" placeholder="Enter your password">
+           <button type="submit" class="signinbtn">Sign in</button>
+           <a href="process.xyz">Forgotten password</a>
            <hr>
-           <tr><td><button>create new account</button></td></tr>
+           <button type="button" class="create-btn">create new account</button>
+           </form>
         </div>
     </div>
 </body>
