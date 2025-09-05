@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container1{
+    background-color: aqua;
+    height: 20vh;
+    width: 100vw;
+}
+
+.header1{
+    display: flex;
+    padding: 20px;
+}
+
+.header1 .ul{
+    padding: 10px;
+}
+
+.container2{
+    background-color: blueviolet;
+    height: 60vh;
+    width: 100vw;
+    padding-top: 4%;
+}
+
+.container3{
+    background-color: yellow;
+    height: 20vh;
+    width: 100vw;
+    padding: 25px;
+}
+
+.sub_container3{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.sub_container3 .box{
+    background-color: wheat;
+    height: 15vh;
+    text-align: center;
+    padding-top: 40px;
+    margin: 10px;
+}
