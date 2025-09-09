@@ -4,32 +4,51 @@
 }
 
 .container1{
-    background-color: aqua;
+    background-color: white;
     height: 20vh;
     width: 100vw;
 }
 
 .header1{
     display: flex;
-    padding: 20px;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.header2 button{
+    border: none;
+    background-color: white;
+    padding-top: 10px;
+    margin-left: 20px;
 }
 
-.header1 .ul{
-    padding: 10px;
+
+.header1right{
+    display: flex;
+    margin-top: 20px;   
+}
+
+.header1right ul{
+    margin-left: 50px;
 }
 
 .container2{
-    background-color: blueviolet;
+    background-color: rgb(233, 231, 236);
     height: 60vh;
     width: 100vw;
-    padding-top: 4%;
+}
+
+.box{
+    padding: 10px;
 }
 
 .container3{
-    background-color: yellow;
+    background-color: white;
     height: 20vh;
     width: 100vw;
-    padding: 25px;
+}
+
+.sub_container1{
+    padding-top: 20px;
 }
 
 .sub_container3{
@@ -39,9 +58,25 @@
     margin: 10px;
 }
 .sub_container3 .box{
-    background-color: wheat;
+    background-color: white;
     height: 15vh;
     text-align: center;
     padding-top: 40px;
     margin: 10px;
+}
+.sub_container3 .box button{
+    background-color: blue;
+    height: 25px;
+    width: 140px;
+    border: none;
+}
+
+.box{
+    box-shadow: 2px 3px 5px 2px;
+    display: grid;
+    gap: 8px;
+}
+
+.in_box1{
+    
 }
